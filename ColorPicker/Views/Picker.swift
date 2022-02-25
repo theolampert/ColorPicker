@@ -1,6 +1,6 @@
 //
-//  ContentView.swift
-//  ColorPicker
+//  Picker.swift
+//  Picker
 //
 //  Created by Theodore Lampert on 08.05.21.
 //
@@ -60,5 +60,7 @@ struct Picker: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Picker()
+            .previewLayout(.sizeThatFits)
+            .padding(120)
     }
 }
